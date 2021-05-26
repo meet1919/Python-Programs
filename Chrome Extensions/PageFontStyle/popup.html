@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PageFontStyle</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="jquery-3.1.0.min.js"></script>
+        <script src="jscolor.min.js"></script>
+        <script src="popup.js"></script>
+        
+        <style>
+            body{
+                min-width: 310px;
+                min-height: 210px; 
+            }
+            #classType{
+                padding-left: 20px;    
+            }
+            #fontColor{
+                margin-top: 5px;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <input class="mt-1 ml-2" type="text" id="classType" placeholder="Enter element you want to change" size="33"/>
+        <input type="text" id="fontColor" class="jscolor ml-2" value="ff0a3b" size="18"/>
+        <input class="btn btn-dark btn-sm ml-1" type="submit" id="btnChange" value="Change"/>
+        <input class="btn btn-dark btn-sm" type="submit" id="btnBold" value="Bold"/>
+
+    </body>
+</html>
+
